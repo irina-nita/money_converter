@@ -2,7 +2,7 @@ on:
   push:
 
 
-json:
+jobs:
   quality_assurance:
     runs-on: ubuntu-latest
     steps:
