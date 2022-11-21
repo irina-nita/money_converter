@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 
 // rgba(159,254,184,255)
@@ -40,7 +38,7 @@ class _HomePageState extends State<HomePage> {
   String output = (0.0).toStringAsFixed(2);
 
   String show = (0.0).toStringAsFixed(2);
-  String? error;
+  String? error = null;
   final TextEditingController controller = TextEditingController();
   @override
   Widget build(BuildContext context) {
